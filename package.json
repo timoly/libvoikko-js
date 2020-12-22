@@ -1,0 +1,22 @@
+{
+  "name": "libvoikko",
+  "version": "1.0.0",
+  "description": "Compiled from [libvoikko](https://github.com/voikko/corevoikko/tree/master/libvoikko) with [emscripten](https://emscripten.org/). Single file build with Finnish language dictionary [Joukahainen](https://joukahainen.puimula.org/) included. Currently only [morpho](https://www.puimula.org/htp/testing/voikko-snapshot-v5/) dictionary is included.",
+  "main": "lib/libvoikko-morpho.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timoly/libvoikko-js.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/timoly/libvoikko-js/issues"
+  },
+  "homepage": "https://github.com/timoly/libvoikko-js#readme"
+}
